@@ -1,0 +1,82 @@
+.Cabecalho {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Cabecalho h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.Cabecalho a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Cabecalho a:hover {
+  color: #ff6600;
+}
+
+.Cabecalho p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.corpo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e7e7;
+}
+
+.corpoCont {
+  text-align: center;
+  padding: 40px;
+}
+
+.titulo {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.mainContent {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.entrar {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.entrar:hover {
+  background-color: #e65100;
+}
+
+.Rodape {
+  background-color: #4e4e4e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
